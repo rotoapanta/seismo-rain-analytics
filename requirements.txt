@@ -1,0 +1,12 @@
+# Seismo-Rain Analytics — runtime requirements
+# Úsalo con: pip install -r requirements.txt
+
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+seaborn>=0.13
+# Para el modo Plotly (app.py)
+plotly>=5.22
+# Para la app web (dash_app.py)
+dash>=2.18
+dash-bootstrap-components>=1.6
