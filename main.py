@@ -11,6 +11,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+from matplotlib.ticker import MaxNLocator, AutoMinorLocator, FuncFormatter
 
 
 DEFAULT_ROOT = Path("DTA")
@@ -103,6 +104,54 @@ def apply_rolling_smoothing(df: pd.DataFrame, variables: List[str], window: int,
             out[var] = out[var].rolling(window=window, center=True, min_periods=minp).mean()
 
     return out
+
+
+def _format_y_axis(ax: plt.Axes, series: pd.Series):
+    """
+    Formatea el eje Y para una mejor visualización en todos los paneles:
+    - Ajusta número de ticks principales
+    - Añade ticks menores y grilla suave
+    - Determina decimales según el rango de datos
+    """
+    s = pd.Series(series).dropna()
+    if s.empty:
+        return
+
+    vmin = float(np.nanmin(s))
+    vmax = float(np.nanmax(s))
+    vrange = vmax - vmin if np.isfinite(vmax - vmin) else 0.0
+
+    if vrange <= 1e-6:
+        decimals = 6
+    elif vrange <= 1e-4:
+        decimals = 5
+    elif vrange <= 1e-3:
+        decimals = 4
+    elif vrange <= 1e-2:
+        decimals = 3
+    elif vrange <= 0.1:
+        decimals = 3
+    elif vrange <= 1:
+        decimals = 2
+    elif vrange <= 10:
+        decimals = 1
+    else:
+        decimals = 0
+
+    ax.yaxis.set_major_locator(MaxNLocator(nbins=6, min_n_ticks=4))
+    ax.ticklabel_format(style="plain", axis="y", useOffset=False)
+    if decimals > 0:
+        ax.yaxis.set_major_formatter(FuncFormatter(lambda y, _: f"{y:.{decimals}f}"))
+    else:
+        ax.yaxis.set_major_formatter(FuncFormatter(lambda y, _: f"{int(round(y))}"))
+
+    try:
+        ax.yaxis.set_minor_locator(AutoMinorLocator(2))
+        ax.grid(True, which="major", alpha=0.3)
+        ax.grid(True, which="minor", alpha=0.15, linestyle=":")
+    except Exception:
+        pass
+
 
 
 def plot_map_panel(
@@ -254,6 +303,7 @@ def plot_time_series(
     map_provider: str = "OpenStreetMap.Mapnik",
     map_jitter_m: float = 0.0,
     map_zoom: Optional[int] = None,          # <-- nuevo
+    carto_map: bool = False,
 ):
     present_vars = [v for v in variables if v in df.columns]
     if not present_vars:
@@ -266,7 +316,15 @@ def plot_time_series(
         fig = plt.figure(figsize=(aspect * 3.2 * 1.3, height * n), constrained_layout=True)
         gs = fig.add_gridspec(nrows=n, ncols=2, width_ratios=[3.0, 1.2])
         axes_ts = [fig.add_subplot(gs[i, 0]) for i in range(n)]
-        ax_map = fig.add_subplot(gs[:, 1])
+        ax_map = None
+        if carto_map:
+            try:
+                import cartopy.crs as ccrs
+                ax_map = fig.add_subplot(gs[:, 1], projection=ccrs.PlateCarree())
+            except Exception:
+                ax_map = fig.add_subplot(gs[:, 1])
+        else:
+            ax_map = fig.add_subplot(gs[:, 1])
     else:
         fig, axes_ts = plt.subplots(n, 1, figsize=(aspect * 3.2, height * n), sharex=True, constrained_layout=True)
         if n == 1:
@@ -312,6 +370,7 @@ def plot_time_series(
         ax.set_xlabel("")
         ax.set_ylabel(var)
         ax.grid(True, alpha=0.3)
+        _format_y_axis(ax, df[var])
         if "timestamp" in df.columns:
             fig.autofmt_xdate(rotation=20)
 
@@ -319,16 +378,24 @@ def plot_time_series(
         palette_map_global = None
         if hue_param_global and levels_sorted_global:
             palette_map_global = {lvl: base_colors[j % len(base_colors)] for j, lvl in enumerate(levels_sorted_global)}
-        plot_map_panel(
-            df,
-            ax_map,
-            hue_by=hue_param_global,
-            palette_map=palette_map_global,
-            basemap=map_basemap,
-            basemap_provider=map_provider,
-            jitter_m=map_jitter_m,
-            map_zoom=map_zoom,          # <-- pasa el zoom
-        )
+        if carto_map:
+            plot_carto_panel(
+                df,
+                ax_map,
+                hue_by=hue_param_global,
+                palette_map=palette_map_global,
+            )
+        else:
+            plot_map_panel(
+                df,
+                ax_map,
+                hue_by=hue_param_global,
+                palette_map=palette_map_global,
+                basemap=map_basemap,
+                basemap_provider=map_provider,
+                jitter_m=map_jitter_m,
+                map_zoom=map_zoom,          # <-- pasa el zoom
+            )
 
     try:
         rango = ""
@@ -398,6 +465,7 @@ def main():
     parser.add_argument("--basemap-provider", type=str, default="OpenStreetMap.Mapnik", help="Proveedor de teselas (p.ej., OpenStreetMap.Mapnik, CartoDB.Positron)")
     parser.add_argument("--map-jitter-m", type=float, default=0.0, help="Separar puntos coincidentes en el mapa (radio en metros)")
     parser.add_argument("--map-zoom", type=int, default=19, help="Zoom del basemap (0-20 para CartoDB/OSM)")  # <-- nuevo
+    parser.add_argument("--carto-map", action="store_true", help="Usar mapa Cartopy estilo carto.py en el panel de mapa")
     parser.add_argument("--save", type=str, default=None, help="Ruta para guardar la figura (si no se especifica, no se guarda)")
     parser.add_argument("--dpi", type=int, default=130, help="DPI al guardar la imagen")
     parser.add_argument("--show", action="store_true", help="Mostrar la figura en pantalla")
@@ -444,6 +512,7 @@ def main():
         map_provider=args.basemap_provider,
         map_jitter_m=args.map_jitter_m,
         map_zoom=args.map_zoom,          # <-- pasa el zoom
+        carto_map=args.carto_map,
     )
 
     if args.save:

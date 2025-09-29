@@ -1,0 +1,547 @@
+{
+    "TIPO": "RGA",
+    "NOMBRE": "REVS2",
+    "IDENTIFICADOR": 1,
+    "LECTURAS": [
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:00:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:01:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:02:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:03:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:04:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:05:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:06:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:07:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:08:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:09:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:10:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:11:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:12:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:13:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:14:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:15:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:16:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:17:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:18:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:19:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:20:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:21:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:22:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:23:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:24:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:25:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:26:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:27:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:28:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:29:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:30:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:31:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:32:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:33:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:34:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:35:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:36:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:37:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:38:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:39:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:40:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:41:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:42:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:43:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:44:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:45:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:46:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:47:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:48:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:49:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:50:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:51:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:52:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:53:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:54:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:55:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:56:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:57:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:58:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-09-27",
+            "TIEMPO": "09:59:00",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        }
+    ]
+}

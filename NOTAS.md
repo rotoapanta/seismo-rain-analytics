@@ -162,4 +162,8 @@ python main.py --tipo RGA --vars NIVEL BATERIA --map --basemap --map-zoom 18 --s
 
 python main.py --tipo SIS --map --basemap --map-zoom 19 --show  
 
+(seismo-rain-analytics-env) rotoapanta@dsk-lnx:~/Documentos/Projects/seismo-rain-analytics$ python3 main.py --root DTA/2025/09/28 --tipo RGA --vars NIVEL BATERIA --map --basemap --map-zo
+om 18 --show
+(seismo-rain-analytics-env) rotoapanta@dsk-lnx:~/Documentos/Projects/seismo-rain-analytics$  python3 main.py --root DTA/2025/09/28 --tipo SIS --vars PASA_BAJO PASA_BANDA PASA_ALTO BATERIA --map --basemap --map-zoom 18 --show
+
 ```
