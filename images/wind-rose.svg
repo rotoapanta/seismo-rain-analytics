@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="-150 -150 300 300" role="img" aria-label="Rosa de los vientos">
+  <title>Rosa de los vientos (8 puntas)</title>
+  <style>
+    .black { fill:#000000; }
+    .white { fill:#FFFFFF; }
+    text { font-family: "DejaVu Serif", "Times New Roman", serif; font-size:18px; fill:#000000; dominant-baseline:middle; text-anchor:middle; }
+  </style>
+
+  <defs>
+    <!-- Puntas largas negras -->
+    <polygon id="longBlack" points="0,-105 -12,0 12,0" class="black"/>
+    <!-- Puntas largas blancas (interior) -->
+    <polygon id="longWhite" points="0,-95 -6,0 6,0" class="white"/>
+    <!-- Puntas cortas negras -->
+    <polygon id="shortBlack" points="0,-70 -9,0 9,0" class="black"/>
+    <!-- Puntas cortas blancas (interior) -->
+    <polygon id="shortWhite" points="0,-62 -4.5,0 4.5,0" class="white"/>
+  </defs>
+
+  <!-- 4 puntas largas con interior blanco -->
+  <g>
+    <use href="#longBlack" transform="rotate(0)"/>
+    <use href="#longWhite" transform="rotate(0)"/>
+    <use href="#longBlack" transform="rotate(90)"/>
+    <use href="#longWhite" transform="rotate(90)"/>
+    <use href="#longBlack" transform="rotate(180)"/>
+    <use href="#longWhite" transform="rotate(180)"/>
+    <use href="#longBlack" transform="rotate(270)"/>
+    <use href="#longWhite" transform="rotate(270)"/>
+  </g>
+
+  <!-- 4 puntas cortas con interior blanco (diagonales) -->
+  <g>
+    <use href="#shortBlack" transform="rotate(45)"/>
+    <use href="#shortWhite" transform="rotate(45)"/>
+    <use href="#shortBlack" transform="rotate(135)"/>
+    <use href="#shortWhite" transform="rotate(135)"/>
+    <use href="#shortBlack" transform="rotate(225)"/>
+    <use href="#shortWhite" transform="rotate(225)"/>
+    <use href="#shortBlack" transform="rotate(315)"/>
+    <use href="#shortWhite" transform="rotate(315)"/>
+  </g>
+
+  <!-- Centro (pequeño círculo blanco con borde negro para el look clásico) -->
+  <circle r="8" class="white" stroke="#000" stroke-width="2"/>
+
+  <!-- Letras cardinales -->
+  <text x="0" y="-125">N</text>
+  <text x="125" y="0">E</text>
+  <text x="0" y="125">S</text>
+  <text x="-125" y="0">W</text>
+</svg>

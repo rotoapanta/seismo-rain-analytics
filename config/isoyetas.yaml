@@ -1,0 +1,63 @@
+# Configuración para 8.py (isoyetas)
+# Edita los valores según necesites. Si un valor no aplica, usa null.
+
+# Datos de entrada
+dir: DTA/2025/09/29/RGA
+date: "2025-09-29"
+start: null  # "HH:MM" o null
+end: null    # "HH:MM" o null
+factor_tip: 1.0
+recursive: false
+
+# Estaciones sintéticas
+add_synthetic: false
+synth_mm: null          # ejemplo: "5,12,25,40"
+synth_offsets: null     # ejemplo: "0.25,0.20; -0.35,0.15; 0.10,-0.30; -0.20,-0.25"
+synth_base: "REVS2"
+
+# Extent manual o automático
+extent: null            # [lon_min, lon_max, lat_min, lat_max] o null para automático
+
+# Salida
+out_prefix: null        # prefijo de salida; si es null se autogenera
+
+# Renderizado y fondo
+scalebar_km: 10.0
+osm: true
+osm_zoom: null          # si null, nivel de zoom se calcula automáticamente
+show_admin1_labels: true
+show_cities: true
+min_pop: 50000
+
+# Visualización
+no_show: false          # true para no abrir ventana interactiva
+paper: null             # "A3" | "A4" | null
+orientation: "landscape"  # "landscape" | "portrait"
+
+# Tamaño explícito de la figura (opcional, en cm)
+# Si se definen, tienen prioridad sobre paper/orientation
+fig_width_cm: null
+fig_height_cm: null
+
+# Posicionamiento del mapa principal
+left_margin_cm: 10.0
+bottom_margin_cm: null
+map_width_cm: 20.0
+map_height_cm: 20.0
+
+# Posición manual en fracciones de figura (left, bottom, width, height). Usa null para desactivar
+map_pos: [0.12, 0.15, 0.65, 0.70]
+
+# Rosa de los vientos y paneles inferiores
+compass_image: "images/wind-rose.png"
+compass_size: 0.38
+bottom_panels_height_cm: 5.0
+
+# Posiciones manuales de componentes (bounds en fracción de figura [l,b,w,h])
+# Si se dejan en null, el layout se calcula automáticamente
+legend_bounds: null         # p.ej. [0.10, 0.06, 0.25, 0.12]
+minimap_bounds: null        # p.ej. [0.38, 0.06, 0.25, 0.12]
+minimap_extent: null        # p.ej. [-81.5, -75.0, -5.5, 2.5] (lon_min, lon_max, lat_min, lat_max)
+wind_panel_bounds: null     # p.ej. [0.66, 0.06, 0.25, 0.12]
+right_panel_bounds: null    # p.ej. [0.90, 0.15, 0.08, 0.70]
+right_panel_rows: 5         # número de subcuadros verticales en el panel derecho

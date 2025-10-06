@@ -1,0 +1,271 @@
+{
+    "TIPO": "PLUVIOMETRIA",
+    "NOMBRE": "REVS2",
+    "IDENTIFICADOR": 1,
+    "LECTURAS": [
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:09:00",
+            "NIVEL": 0.25,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:16:00",
+            "NIVEL": 0.25,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:17:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:18:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:19:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:20:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:21:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:22:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:23:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:24:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:25:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:26:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:27:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:28:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:29:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:30:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:31:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:32:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:33:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:34:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:35:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:36:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:37:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:38:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:39:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:40:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:41:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:42:00",
+            "NIVEL": 0.25,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:43:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:44:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:45:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:46:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:47:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:48:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:49:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:50:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.46
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:51:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:52:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:53:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:54:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:55:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:56:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:57:00",
+            "NIVEL": 0.0,
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "15:58:00",
+            "NIVEL": 0.25,
+            "BATERIA": 12.46
+        }
+    ]
+}

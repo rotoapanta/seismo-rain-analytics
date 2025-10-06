@@ -1,0 +1,31 @@
+{
+    "TIPO": "SIS",
+    "NOMBRE": "REVS2",
+    "IDENTIFICADOR": 1,
+    "LECTURAS": [
+        {
+            "FECHA": "2025-09-30",
+            "TIEMPO": "12:28:41",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "ALERTA": false,
+            "PASA_BANDA": "0125",
+            "PASA_BAJO": "0124",
+            "PASA_ALTO": "0085",
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-09-30",
+            "TIEMPO": "12:43:40",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "ALERTA": false,
+            "PASA_BANDA": "0001",
+            "PASA_BAJO": "0001",
+            "PASA_ALTO": "0005",
+            "BATERIA": 12.46
+        }
+    ]
+}

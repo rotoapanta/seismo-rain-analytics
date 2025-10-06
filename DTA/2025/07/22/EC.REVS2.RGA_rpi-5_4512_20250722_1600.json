@@ -1,0 +1,37 @@
+{
+    "TIPO": "PLUVIOMETRIA",
+    "NOMBRE": "REVS2",
+    "IDENTIFICADOR": 1,
+    "LECTURAS": [
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "16:07:00",
+            "NIVEL": 0.25,
+            "BATERIA": 12.47
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "16:08:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "16:09:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "16:10:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        },
+        {
+            "FECHA": "2025-07-22",
+            "TIEMPO": "16:11:00",
+            "NIVEL": 0.0,
+            "BATERIA": null
+        }
+    ]
+}

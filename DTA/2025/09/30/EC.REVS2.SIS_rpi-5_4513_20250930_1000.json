@@ -1,0 +1,19 @@
+{
+    "TIPO": "SIS",
+    "NOMBRE": "REVS2",
+    "IDENTIFICADOR": 1,
+    "LECTURAS": [
+        {
+            "FECHA": "2025-09-30",
+            "TIEMPO": "10:01:36",
+            "LATITUD": -0.212183,
+            "LONGITUD": -78.491557,
+            "ALTURA": 2814.1,
+            "ALERTA": false,
+            "PASA_BANDA": "0005",
+            "PASA_BAJO": "0033",
+            "PASA_ALTO": "0039",
+            "BATERIA": 12.46
+        }
+    ]
+}
